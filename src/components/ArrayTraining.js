@@ -26,7 +26,7 @@ const training = {
       date: "septembre 1996 - juin 2000",
       title: "Arts du spectacle, cinéma, montage vidéo (bac+4)",
       content:
-        "Apprentissage de la culture cinématographique de Chaplin à nos jours. Réalisation de cours métrages avec montage vidéo.",
+        "Apprentissage de la culture cinématographique de Chaplin à nos jours. Réalisation de courts métrages avec montage vidéo.",
       image: "./assets/diplome-maitrise.jpg",
       alt: "diplôme de la maîtrise en Arts du Spectacle"
     },
@@ -36,7 +36,7 @@ const training = {
       date: "mai 2021 - aujourd'hui",
       title: "Freelance Aurore Création Web",
       content:
-        "Création de sites internet (sites vitrines et sites e-commerce) avec gestion par le client ou moi-même. ",
+        "Création de sites internet (sites vitrines et sites e-commerce) avec gestion par le client ou moi-même. Sous-traitance pour des developpeurs pour faire de l 'intégration de maquette en boostrap, css, js puis à intégrer dans du php. Remise à jour de base de données, diverses missions informatiques ",
       image: "./assets/carte-visite-ACW.jpg",
       alt: "carte de visite de l'entreprise Aurore Création Web",
       link: "https://aurorecreationweb.fr",
