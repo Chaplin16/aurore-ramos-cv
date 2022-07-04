@@ -20,7 +20,7 @@ export default function Footer() {
               src="./assets/github-aurore-ramos.png"
               alt="telephone pour contacter aurore ramos"
             />
-            <a href="https://github.com/Chaplin16?tab=repositories"  className="fw-bold color-text">
+            <a href="https://github.com/Chaplin16?tab=repositories"  className="fw-bold color-text text-decoration-none">
               Github repositories
             </a>
           </li>
@@ -30,7 +30,7 @@ export default function Footer() {
               src="./assets/linkedin-aurore-ramos.png"
               alt="linkedin pour le profil d'aurore ramos"
             />
-            <a  href="https://www.linkedin.com/in/aurore-creation-web/"  className="fw-bold color-text">
+            <a  href="https://www.linkedin.com/in/aurore-creation-web/"  className="fw-bold color-text text-decoration-none">
               Linkedin
             </a>
           </li>
@@ -40,7 +40,7 @@ export default function Footer() {
               src="./assets/aurore-creation-web-logo.png"
               alt="logo d'aurore création web"
             />
-            <a href="https://aurorecreationweb.fr" className="fw-bold color-text">Aurore Création Web</a>
+            <a href="https://aurorecreationweb.fr" className="fw-bold color-text text-decoration-none">Aurore Création Web</a>
           </li>
           <li className="fw-bold">
             <img
