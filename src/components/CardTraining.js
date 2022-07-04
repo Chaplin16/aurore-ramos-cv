@@ -1,3 +1,4 @@
+//creation des cards pour les formations et experience
 export default function CardTraining(props) {
   return (
     <div className="d-flex flex-wrap justify-content-around ">

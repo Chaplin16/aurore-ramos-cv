@@ -1,0 +1,259 @@
+//Disposition des softSkills autour du H3
+#softSkills {
+    background-color: aliceblue;
+    border-radius:45%;
+    transition: all 300ms;
+    .softSkills {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        z-index:15;
+        font-size:4.5rem!important;
+    }
+    li:first-child{
+       top: 8.5rem;
+       left:1rem;
+       font-size: 2.5rem;
+       color: #999c9e;
+       font-weight:700;
+       
+    }
+    li:nth-child(2){
+        bottom: 9.5rem;
+        left: 8rem;
+        font-size: 3.3rem;
+        color: #d1d1d1;
+        font-weight:400;
+        
+    }
+    li:nth-child(3){
+        bottom: 2.8rem;
+        left: 5rem;
+        font-size: 2.6rem;
+        color: #afafaf;
+        font-weight:400;
+        
+    }
+    .succeed{
+        top:4rem;
+        left:15rem;
+        color: #b3b3b3;
+        font-weight: 400;
+ 
+    }
+    .criticalThinking{
+        top: 7.5rem;
+        right: 3rem;
+        font-size: 1.5rem;
+        color: #c4c1c1;
+        font-weight:600;
+        
+    }
+    .learn{
+        bottom: 6.8rem;
+        right: 4rem;
+        font-size: 2.3rem;
+        color: #414040;
+        font-weight:400;
+        
+    }
+    .positivity{
+        top: 10.5rem;
+        right: 12vw;
+        font-size: 3rem;
+        color: #646161;
+        font-weight:600;
+        
+    }
+    .initiative{
+        bottom: 13rem;
+        left: 0rem;
+        font-size: 2.2rem;
+        color: #a0a0a0;
+        font-weight:400;
+        
+    }
+    .listen{
+        top: 13rem;
+        left: 1rem;
+        font-size: 1.9rem;
+        color: #c9c9c9;
+        font-weight:700;
+        
+    }
+    .organization{
+        bottom: 13rem;
+        right: 1rem;
+        font-size: 1.9rem;
+        color: #a3a2a2;
+        font-weight:700;
+        
+    }
+    .cool{
+        top: 13.5rem;
+        right: 0rem;
+        font-size: 1.9rem;
+        color: #c9c9c9;
+        font-weight:300;
+        
+    }
+    .determination{
+        top: 4.8rem;
+        left: 2.8rem;
+        font-size: 2rem;
+        color: #999494;
+        font-weight:300;
+        
+    }
+    .responsive{
+        top: 7.8rem;
+        left: 3rem;
+        font-size: 1rem;
+        color: #706f6f;
+        font-weight:600;
+        
+    }
+    .worker{
+        top: 3rem;
+        left:8rem;
+        font-size: 1.3rem;
+        color: #757575;
+        font-weight:600;
+        
+    }
+    .realistic{
+        bottom: 10.8rem;
+        left:2rem;
+        font-size: 1.3rem;
+        color: #504f4f;
+        font-weight:500;
+        
+    }
+    .autonomy{
+        top: 9.3rem;
+        left:16rem;
+        font-size: 1.5rem;
+        color: #838181;
+        font-weight:300;
+        
+    }
+    .mood{
+        bottom: 6rem;
+        right: 4.5rem;
+        color: #cac8c8;
+        font-weight:300;
+    }
+    .kind{
+        bottom:5.5rem;
+        left:3rem;
+        color: #39393a;
+        font-size:1.4rem;
+        font-weight: 300;
+    }
+    .logic{
+        top:15.5rem;
+        color: #050505;
+        font-weight: 700;
+    
+    }
+    .serious{
+        top: 1rem;
+        right:7.6rem;
+        color: #585858;
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    #softSkills .softSkills{
+        font-size:3.2rem!important;
+    }
+    #softSkills li:nth-child(2){
+        font-size: 2.3rem;
+    }
+    #softSkills .cool{
+        font-size: 1.3rem;
+        top: 13.7rem;
+        right: 1.5rem;
+    }
+    #softSkills .positivity{
+        font-size: 2.3rem;
+    }
+    #softSkills .autonomy{
+        font-size: 1rem;
+        left:14rem;
+    }
+    #softSkills li:first-child{
+        font-size:2rem;
+    }
+    #softSkills .determination {
+        font-size: 1.7rem;
+    }
+    #softSkills .criticalThinking{
+        top:6.8rem;
+    }
+    #softSkills .learn{
+        font-size: 1.7rem;
+        right:6.5rem;
+    }
+    #softSkills .initiative{
+        font-size: 1.7rem;
+    }
+    #softSkills .serious{
+        font-size: 1rem;
+        top:1.5rem!important;
+        right:9rem!important;
+    }
+    #softSkills .logic{
+        left:-1rem;;
+    }
+    #softSkills .succeed{
+        top:11.45rem;
+        left:2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #softSkills{
+        width:37rem!important;
+        margin:auto;
+    }
+    li:nth-child(3){
+        right:15rem!important;
+    }
+    .succeed{
+        font-size: 2.6rem;
+        top:2.6rem!important;
+        left:18rem!important;
+        font-weight: 300;
+    }
+    .responsive{
+        left: 10rem!important;
+    }
+    .positivity{
+        top: 10.5rem!important;
+    }
+    .mood{
+        bottom: 1rem!important;
+        right: 13rem!important;
+        font-size: 1.7rem!important;
+    }
+    .kind{
+        bottom: 6.5rem!important;
+    }
+    .logic{
+        font-size: 1.6rem!important;
+        top: 16.5rem!important;
+
+    }
+    .determination{
+        left:4rem!important;
+        top:5.2rem!important;
+    }
+    .serious{
+        right: 14rem!important;
+        top:0!important;
+    }
+}
+

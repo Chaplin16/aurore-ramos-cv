@@ -1,67 +1,66 @@
-//défilement des formats portable pour toutes les réalisation de sites internet et projets
+//défilement tout en bas des icones de languages/frameworks
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import ArrayLanguages from "../components/ArrayLanguages";
 import { v4 as uuidv4 } from "uuid";
 
-export default function Carousel({images}) {
+export default function SlideLanguages() {
   const sliderSettings = {
     //parametre du slicks
-    slidesToShow: 6,
+    slidesToShow: 10,
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 1800,
-    swipeToSlide: true,
+    autoplaySpeed: 1500,
+    pauseOnFocus: false,
+    pauseOnHover: false,
     responsive: [
 
       {
         breakpoint: 1350,
         settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
+          slidesToShow: 8,
         },
       },
       {
         breakpoint: 1100,
         settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
+          slidesToShow: 6,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
+          slidesToShow: 5,
           infinite: true,
         },
       },
       {
         breakpoint: 550,
         settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
         },
       },
     ],
+
   };
 
 
   return (
-    <div className="content ms-3" id="portfolio">
+    <div id="slideLanguages" className="me-1">
       <Slider {...sliderSettings}>
-        {images.map((item) => (
-          <a href={item.link} key={uuidv4()} className="text-decoration-none">
-            <div className="cardImage pt-5 pb-5">
-              <p className="popUp text-center">{item.popUp}</p>
+        {ArrayLanguages.map((item) => (
+            <div className="my-3" key="uuidv4()">
               <img src={item.image} alt={item.alt} />
             </div>
-          </a>
         ))}
       </Slider>
     </div>

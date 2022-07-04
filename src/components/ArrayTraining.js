@@ -1,3 +1,4 @@
+//tableau pour les formations / experiences page training avec les cards en CardTraining
 const training = {
   certificate: [
     {

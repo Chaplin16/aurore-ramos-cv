@@ -1,7 +1,34 @@
+//missions potentielles pour les dev et agences
+import React from 'react'
+
 export default function Text() {
   return (
-    <div className='text text-align-left pt-3 pe-4 mb-5 w-100 content'>
-        <p>Passionée par le developpement Web, je travaille autant avec des clients qu'avec des developpeurs en sous-traitance. Intégration de maquettes souvent en boostrap et js, remise à jour de base de données, création de sites vitrines, rédaction de contenu textuel, réalisation de vidéos avec montage son et image, création de maquettes sur Figma, saisie de données.. Grande conscience professionnelle, riguoureuse, travailleuse et toujours de bonne humeur, je respecte les demandes du client et ses délais.  Discrète, je ne publie en aucun cas le travail effectué en sous-traitance. Toujours en quête de nouvelles missions, de nouveaux défis, n'hésitez pas à me contacter par message, mail, visio, téléphone suivant votre préférence. </p>
+    <div className="text">
+        <h2 className='text-center mb-5'>
+            Sous-traitante <br/>pour les developpeurs et pour les agences
+        </h2>
+        <ul>
+            <li className='d-flex align-items-center my-2'>
+                <img src="./assets/icon/aurore-check.png" alt="" />
+                <p className='m-0 ps-3 lead'>Intégration de maquette</p>
+            </li>
+            <li className='d-flex align-items-center my-2'>
+                <img src="./assets/icon/aurore-check.png" alt="" />
+                <p className='m-0 ps-3 lead'>Saisie en base de données SQL et NoSQL</p>
+            </li>
+            <li className='d-flex align-items-center my-2 '>
+                <img src="./assets/icon/aurore-check.png" alt="" />
+                <p className='m-0 ps-3 lead'>Refactorisation de code</p>
+            </li>
+            <li className='d-flex align-items-center my-2'>
+                <img src="./assets/icon/aurore-check.png" alt="" />
+                <p className='m-0 ps-3 lead'>Optimisation de photos (nommer, redimentionner, alléger)</p>
+            </li>
+            <li className='d-flex align-items-center my-2'>
+                <img src="./assets/icon/aurore-check.png" alt="" />
+                <p className='m-0 ps-3 lead'>Correction et relecture de textes en français</p>
+            </li>
+        </ul>
     </div>
   )
 }

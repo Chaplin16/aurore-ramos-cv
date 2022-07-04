@@ -1,9 +1,10 @@
+//tableau des réalisatioons format portable sur la page portfolio
 const Images = {
     vitrine : [
         {
             image: './assets/site-vitrine/aurore-creation-web-aiguesbike.png',
             alt:"Création d'un site de location de vélo",
-            link:'https://aiguesbike.fr/'
+            link:'https://chaplin16.github.io/aigues_bike/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-artisans-de-samael.png',
@@ -13,7 +14,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-nokisland.png',
             alt:"Création d'un site pour une boutiquede vêtements",
-            link:'https://nokisland.fr/'
+            link:'https://chaplin16.github.io/nokIsland/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-roudil.png',
@@ -38,7 +39,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-lentracte.png',
             alt:"Création d'un site pour un snack",
-            link:'https://lentracte-aiguesmortes.fr/'
+            link:'https://chaplin16.github.io/entracte/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-o-phil-des-saveurs.png',
@@ -53,7 +54,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-cordonnier-remparts.png',
             alt:"Création d'un site pour un cordonnier",
-            link:'https://cordonneriedesremparts.fr/'
+            link:'https://chaplin16.github.io/cordonnerie/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-jotraiteur.png',
@@ -68,7 +69,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-cordonnier-grau.png',
             alt:"Création d'un site pour un cordonnier sur le grau du roi ",
-            link:'http://cordonneriedugrau.fr/'
+            link:'https://chaplin16.github.io/cordonnerie-du-grau/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-scenario.png',
@@ -86,11 +87,6 @@ const Images = {
             image:'./assets/site-cms/aurore-creation-web-carrousel.png',
             alt:"Création d'un site internet pour",
             link:'https://carrousel-aiguesmortes.fr/'
-        },
-        {
-            image:'./assets/site-cms/aurore-creation-web-caze-dec-oceane.png',
-            alt:"Création d'un site internet pour le manède d'Aigues-Mortes",
-            link:'https://decoaiguesmortes.fr/'
         },
         {
             image:'./assets/site-cms/aurore-creation-web-judo.png',

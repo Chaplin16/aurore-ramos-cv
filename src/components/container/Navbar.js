@@ -17,9 +17,9 @@ export default function Navbar() {
         setToggleMenu(false);
       }
     };
-    window.addEventListener("resize", changeWidth);
+    window.addEventListener('resize', changeWidth);
     return () => {
-      window.removeEventListener("resize", changeWidth);
+      window.removeEventListener('resize', changeWidth);
     };
   }, []);
 
@@ -32,6 +32,12 @@ export default function Navbar() {
             className={({ isActive }) => (isActive ? "link-active" : "link")}
           >
             Accueil
+          </NavLink>
+          <NavLink
+            to="/Portfolio"
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+          >
+            Portfolio
           </NavLink>
           <NavLink
             to="/Training"

@@ -1,3 +1,4 @@
+//creation des cards pages hobbies avec le tableau en ArrayHobbies
 export default function CardHobbies(props) {
   return (
     <main>

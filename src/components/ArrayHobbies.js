@@ -1,3 +1,4 @@
+//tableau pour les trois hobbies page hobbies avec les cards en CardHobbies
 const hobbies = {
   handiwork: {
     title: 'Bricolage',
