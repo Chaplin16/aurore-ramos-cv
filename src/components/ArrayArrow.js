@@ -9,7 +9,7 @@ const arrayArrow = {
   ],
   portfolioUp: [
     {
-      link: `/`,
+      link: `/Portfolio`,
       src: "./assets/up-arrow.png",  //fleche qui monte vers 'portfolio'
       legend: "Portfolio",
     },

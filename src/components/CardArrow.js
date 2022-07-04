@@ -4,7 +4,7 @@ export default function Arrow(props) {
     <div>
       {props.arrayArrow.map((item, index) => (
         <div key={index} className="text-center p-4 blocArrow">
-          <a href={item.link}>
+          <a href={item.link} className="text-decoration-none">
             <img
               src={item.src}
               alt="fleche pour changer de page"
