@@ -26,18 +26,19 @@
         
     }
     li:nth-child(3){
-        bottom: 2.8rem;
-        left: 5rem;
+        bottom: 2rem;
+        left: 5.5rem;
         font-size: 2.6rem;
-        color: #afafaf;
-        font-weight:400;
+        color: #797878;
+        font-weight:600;
         
     }
-    .succeed{
-        top:4rem;
+    .initiative{
+        top:5.3rem;
         left:15rem;
-        color: #b3b3b3;
-        font-weight: 400;
+        color: #757272;
+        font-weight: 700;
+        font-size:1.4rem;
  
     }
     .criticalThinking{
@@ -64,7 +65,7 @@
         font-weight:600;
         
     }
-    .initiative{
+    .succeed{
         bottom: 13rem;
         left: 0rem;
         font-size: 2.2rem;
@@ -89,27 +90,27 @@
         
     }
     .cool{
-        top: 13.5rem;
-        right: 0rem;
-        font-size: 1.9rem;
+        top: 14rem;
+        right: 1rem;
+        font-size: 1.3rem;
         color: #c9c9c9;
         font-weight:300;
         
     }
-    .determination{
-        top: 4.8rem;
+    .responsive{
+        top: 4rem;
         left: 2.8rem;
         font-size: 2rem;
-        color: #999494;
-        font-weight:300;
+        color: #555454;
+        font-weight:600;
         
     }
-    .responsive{
-        top: 7.8rem;
-        left: 3rem;
-        font-size: 1rem;
-        color: #706f6f;
-        font-weight:600;
+    .determination{
+        top: 7rem;
+        left: 1rem;
+        font-size: 1.1rem;
+        color: #999494;
+        font-weight:300;
         
     }
     .worker{
@@ -137,15 +138,16 @@
         
     }
     .mood{
-        bottom: 6rem;
+        bottom: 5rem;
         right: 4.5rem;
-        color: #cac8c8;
-        font-weight:300;
+        color: #2b2929;
+        font-weight:700;
+        font-size:1.3rem;
     }
     .kind{
-        bottom:5.5rem;
+        bottom:5rem;
         left:3rem;
-        color: #39393a;
+        color: #a4a4a5;
         font-size:1.4rem;
         font-weight: 300;
     }
@@ -164,6 +166,45 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    #softSkills .initiative{
+        left:11rem!important;
+        font-size:1.5rem!important;
+    }
+    #softSkills .autonomy{
+        left:12rem!important;
+        font-size: 1.2rem!important;
+    }
+    #softSkills .logic{
+        top:15.2rem!important;
+    }
+    #softSkills .mood{
+        bottom:0.5rem;
+        right: 7.5rem;
+        font-size: 1.1rem;
+    }
+    #softSkills .organization{
+        bottom: 11.8rem!important;
+    }
+    #softSkills li:nth-child(2){
+        font-size: 1.5rem!important;
+        left:10.6rem;
+    }
+    #softSkills .realistic{
+        bottom:11rem;
+        left:1rem;
+    }
+    #softSkills .determination{
+        font-size:1.1rem!important;
+    }
+    #softSkills .kind{
+        left:9rem;
+    }
+    #softSkills li:nth-child(3){
+        font-size:1.9rem!important;
+        left:3.5rem;
+    }
+}
 
 @media screen and (max-width: 450px) {
     #softSkills .softSkills{
@@ -172,6 +213,9 @@
     #softSkills li:nth-child(2){
         font-size: 2.3rem;
     }
+    #softSkills li:nth-child(3){
+        font-size: 2.2rem;
+    }
     #softSkills .cool{
         font-size: 1.3rem;
         top: 13.7rem;
@@ -179,19 +223,24 @@
     }
     #softSkills .positivity{
         font-size: 2.3rem;
+        top:11rem;
+
     }
     #softSkills .autonomy{
-        font-size: 1rem;
+        font-size: 1.4rem;
         left:14rem;
+        font-weight: 500;
     }
     #softSkills li:first-child{
         font-size:2rem;
     }
     #softSkills .determination {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        top:6.5rem;
     }
     #softSkills .criticalThinking{
-        top:6.8rem;
+        top:7.6rem;
+        font-size: 1.3rem;
     }
     #softSkills .learn{
         font-size: 1.7rem;
@@ -199,6 +248,8 @@
     }
     #softSkills .initiative{
         font-size: 1.7rem;
+        top:4.5rem;
+        left:13rem;
     }
     #softSkills .serious{
         font-size: 1rem;
@@ -206,11 +257,17 @@
         right:9rem!important;
     }
     #softSkills .logic{
-        left:-1rem;;
+        left:0rem;
+        top: 16rem;
     }
     #softSkills .succeed{
-        top:11.45rem;
-        left:2rem;
+        bottom:13rem;
+        left:1rem;
+    }
+    #softSkills .organization{
+        font-size:1.7rem;
+        bottom:12.2rem;
+        right:2.3rem;
     }
 }
 
@@ -229,13 +286,15 @@
         font-weight: 300;
     }
     .responsive{
-        left: 10rem!important;
+        left: 5.5rem!important;
+        top:4.5rem!important;
+        font-size:2.4rem!important;
     }
     .positivity{
         top: 10.5rem!important;
     }
     .mood{
-        bottom: 1rem!important;
+        bottom: 0.3rem!important;
         right: 13rem!important;
         font-size: 1.7rem!important;
     }
@@ -248,12 +307,16 @@
 
     }
     .determination{
-        left:4rem!important;
-        top:5.2rem!important;
+        left:7rem!important;
+        top:7.5rem!important;
+        font-size: 1.4rem!important;
     }
     .serious{
         right: 14rem!important;
         top:0!important;
+    }
+    .initiative{
+        left: 22rem!important;
     }
 }
 

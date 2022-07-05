@@ -6,7 +6,7 @@ import Arrow from "../components/CardArrow";
 
 export default function Realisations() {
     return (
-      <div id="portfolio" className="mt-5 mx-auto">
+      <main id="portfolio" className="mt-5 mx-auto">
         <h2 className="title" >Quelques sites vitrines en JS, Bootstrap, Sass</h2>
         <Carousel images={Images.vitrine} />
         <h2 className="title" id="cms">
@@ -19,7 +19,7 @@ export default function Realisations() {
             <Arrow arrayArrow={arrayArrow.home}/>
             <Arrow arrayArrow={arrayArrow.trainingDown} />
         </div>
-      </div>
+      </main>
     );
   }
   
