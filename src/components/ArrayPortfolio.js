@@ -9,13 +9,13 @@ const portfolio= {
     vitrineCMS: [
         {
             title:'SITES AVEC CMS',
-            link:`/Portfolio`
+            link:`/Portfolio#cms`
         }
     ],
     personalProject: [
         {
             title:'PROJETS PERSO',
-            link:`/Portfolio`
+            link:`/Portfolio#personal`
         }
     ]
 }
