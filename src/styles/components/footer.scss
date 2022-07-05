@@ -24,25 +24,26 @@ footer{
             color: $color-logo;
         }
     }
+    .imgFooter{
+        width:45px; 
+        height: auto;
+    }
     .imgAurore{
         width:130px;
-        height: auto;
-        top: 2rem;
-        left:60vw;
+        object-fit: cover;
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
     .imgAurore{
         display: block!important;
     }
+   
 }
 
-@media screen and (max-width:600px) {
-    .phone{
-        margin-right: 0!important;
-    }
-    .contact{
-        margin-left:0.5rem!important;
+@media screen and (max-width:700px) {
+ .socialNetworks{
+        justify-content: center!important;
+        align-items: center!important;
     }
 }
