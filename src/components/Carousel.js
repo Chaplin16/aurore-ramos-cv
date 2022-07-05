@@ -48,6 +48,14 @@ export default function Carousel({images}) {
           infinite: true,
         },
       },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
     ],
   };
 

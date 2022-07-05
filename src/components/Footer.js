@@ -9,7 +9,7 @@ export default function Footer() {
             alt="portable d aurore creation web"
           />
         </a>
-        <ul className="list-unstyled ms-3">
+        <ul className="list-unstyled ms-3 contact">
           <li className="fw-bold">
             Les avis de mes clients sur Google à{" "}
             <span className="color fw-bold color-logo">Aurore Création Web</span>

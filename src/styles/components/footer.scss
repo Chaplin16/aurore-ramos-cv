@@ -37,3 +37,12 @@ footer{
         display: block!important;
     }
 }
+
+@media screen and (max-width:600px) {
+    .phone{
+        margin-right: 0!important;
+    }
+    .contact{
+        margin-left:0.5rem!important;
+    }
+}
