@@ -13,7 +13,7 @@ export default function Video() {
                 setSource('video-pour-sous-traitance-dev-2.mp4')
             video.load();
         }, 6950);
-    });
+    },[source]);
 
     return (
         <video autoPlay muted id="video">
