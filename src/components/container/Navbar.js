@@ -13,50 +13,53 @@ export default function Navbar() {
     const changeWidth = () => {
       setLargeur(window.innerWidth);
 
-      if (window.innerWidth > 1000) {
-        setToggleMenu(false);
-      }
     };
-    window.addEventListener('resize', changeWidth);
+    window.addEventListener('click', changeWidth);
     return () => {
-      window.removeEventListener('resize', changeWidth);
+      window.removeEventListener('click', changeWidth);
     };
   }, []);
 
   return (
     <nav>
-      {(toggleMenu || largeur > 1000) && (
+      {(toggleMenu) && (
         <ul>
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? "link-active" : "link")}
+            onClick={navSmallScreen}
           >
             Accueil
           </NavLink>
           <NavLink
-            to="/Portfolio"
+            to="/Portfolio" 
             className={({ isActive }) => (isActive ? "link-active" : "link")}
+            onClick={navSmallScreen}
           >
             Portfolio
           </NavLink>
           <NavLink
             to="/Training"
             className={({ isActive }) => (isActive ? "link-active" : "link")}
+            onClick={navSmallScreen}
           >
             Formation
           </NavLink>
           <NavLink
             to="/Hobbies"
             className={({ isActive }) => (isActive ? "link-active" : "link")}
+            onClick={navSmallScreen}
           >
             Hobbies
           </NavLink>
         </ul>
       )}
-
-      <button onClick={navSmallScreen} className="btn">
+      <div className="btnMenu">
+      <button onClick={navSmallScreen} >
         MENU
+        <img className="displayMenu" src="./assets/icon/afficher-menu.png" alt="afficher le menu" />
       </button>
+      </div>
     </nav>
   );
 }

@@ -1,5 +1,4 @@
 import Carousel from "../components/Carousel";
-
 import Images from "../components/Images";
 import arrayArrow from "../components/ArrayArrow";
 import Arrow from "../components/CardArrow";

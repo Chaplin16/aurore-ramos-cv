@@ -35,19 +35,11 @@ export default function Carousel({images}) {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 550,
-        settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
-      },
+      },  
       {
         breakpoint: 450,
         settings: {
