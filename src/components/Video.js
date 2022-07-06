@@ -7,10 +7,10 @@ export default function Video() {
     useEffect(() => {
         const video = document.getElementById('video');
         setInterval(() => {
-            if (source === 'video-pour-sous-traitance-dev.mp4')
-                setSource('video-pour-sous-traitance-dev-2.mp4');
+            if (source === 'video-pour-sous-traitance-dev-2.mp4')
+                setSource('video-pour-sous-traitance-dev.mp4');
             else
-                setSource('video-pour-sous-traitance-dev.mp4')
+                setSource('video-pour-sous-traitance-dev-2.mp4')
             video.load();
         }, 6950);
     });
