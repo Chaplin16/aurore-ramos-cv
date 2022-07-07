@@ -3,7 +3,6 @@ import React from 'react'
 
 export default function SoftSkills() {
 
-
   return (
     <div id="softSkills" className='position-relative text-center my-5'>
         <h3 className='softSkills fw-bolder color-logo'>softSkills</h3>

@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="mt-5">
         <div className="d-flex justify-content-around color-text">
-           <a href="https://aurorecreationweb.fr">
+           <a href="https://aurorecreationweb.fr" className="phoneAurore">
                 <img
                         className="phone h-auto me-3"
                         src="./assets/telephone-aurore-creation-web.png"
@@ -11,14 +11,14 @@ export default function Footer() {
             </a>
             <div>
                 <div>
-                <p className="fw-bold text-center pb-3">
+                <p className="google fw-bold text-center pb-3">
                     Les avis de mes clients sur Google à
                      <span className="color fw-bold color-logo">
                      &nbsp;Aurore Création Web
                     </span>
                 </p>
                 </div>
-                <ul className="list-unstyled contact d-flex flex-wrap justify-content-between socialNetworks ">
+                <ul className="list-unstyled contact d-flex flex-wrap justify-content-between socialNetworks">
                 <li className="d-flex row justify-content-center">
                     <img className="imgFooter"
                     src="./assets/github-aurore-ramos.png"

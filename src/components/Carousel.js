@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import { v4 as uuidv4 } from "uuid";
 
 export default function Carousel({images}) {
+
   const sliderSettings = {
     //parametre du slicks
     slidesToShow: 6,
@@ -51,7 +52,6 @@ export default function Carousel({images}) {
     ],
   };
 
-
   return (
     <div className="content ms-3" id="portfolio">
       <Slider {...sliderSettings}>
@@ -59,7 +59,7 @@ export default function Carousel({images}) {
           <a href={item.link} key={uuidv4()} className="text-decoration-none">
             <div className="cardImage pt-5 pb-5">
               <p className="popUp text-center">{item.popUp}</p>
-              <img src={item.image} alt={item.alt} />
+              <img id="webSite" src={item.image} alt={item.alt} />
             </div>
           </a>
         ))}

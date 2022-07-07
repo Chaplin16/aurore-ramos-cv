@@ -1,5 +1,11 @@
 
 // proposition de travail pour les devs
+@media screen and (max-width:500px) {
+    .service{
+        padding-left:0!important;
+    }
+}
+
 @media screen and (max-width:750px) {
     li{
         padding-left:5%!important;

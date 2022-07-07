@@ -7,7 +7,7 @@ export default function Text() {
         <h2 className='text-center mb-5'>
             Sous-traitante <br/>en développement
         </h2>
-        <ul>
+        <ul className='service'>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
                 <p className='m-0 ps-3 lead'>Intégration de maquette</p>
