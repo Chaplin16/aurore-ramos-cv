@@ -57,7 +57,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li className="fw-bold d-flex row justify-content-center">
-                        <img className="imgFooter"
+                        <img className="imgFooter3"
                     
                         src="./assets/icon/telephone.png"
                         alt="logo d'aurore création web"
