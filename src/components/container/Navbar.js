@@ -4,15 +4,15 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
-
+  
   const navSmallScreen = () => {
     setToggleMenu(!toggleMenu);
   };
 
+
   useEffect(() => {
     const changeWidth = () => {
       setLargeur(window.innerWidth);
-
     };
     window.addEventListener('click', changeWidth);
     return () => {
@@ -55,10 +55,10 @@ export default function Navbar() {
         </ul>
       )}
       <div className="btnMenu">
-      <button onClick={navSmallScreen} >
-        MENU
-        <img className="displayMenu" src="./assets/icon/afficher-menu.png" alt="afficher le menu" />
-      </button>
+        <button onClick={navSmallScreen} id="menu">
+            MENU
+            <img className="displayMenu" src="./assets/icon/afficher-menu.png" alt="afficher le menu" />
+        </button>
       </div>
     </nav>
   );
