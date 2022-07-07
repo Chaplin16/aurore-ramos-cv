@@ -18,52 +18,52 @@ export default function Footer() {
                     </span>
                 </p>
                 </div>
-                <ul className="list-unstyled contact d-flex flex-wrap justify-content-between socialNetworks">
-                <li className="d-flex row justify-content-center">
-                    <img className="imgFooter"
-                    src="./assets/github-aurore-ramos.png"
-                    alt="telephone pour contacter aurore ramos"
-                    />
-                    <a
-                    href="https://github.com/Chaplin16?tab=repositories"
-                    className="fw-bold color-text text-decoration-none text-center"
-                    >
-                    Github repositories
-                    </a>
-                </li>
-                <li className="d-flex row justify-content-center">
-                    <img className="imgFooter"
-                    src="./assets/linkedin-aurore-ramos.png"
-                    alt="linkedin pour le profil d'aurore ramos"
-                    />
-                    <a
-                    href="https://www.linkedin.com/in/aurore-creation-web/"
-                    className="fw-bold color-text text-decoration-none text-center"
-                    >
-                    Linkedin
-                    </a>
-                </li>
-                <li className="d-flex row justify-content-center">
-                    <img className="imgFooter"
-                 
-                    src="./assets/aurore-creation-web-logo.png"
-                    alt="logo d'aurore création web"
-                    />
-                    <a
-                    href="https://aurorecreationweb.fr"
-                    className="fw-bold color-text text-decoration-none text-center"
-                    >
-                    Aurore Création Web
-                    </a>
-                </li>
-                <li className="fw-bold d-flex row justify-content-center">
-                    <img className="imgFooter "
-                 
-                    src="./assets/telephone.png"
-                    alt="logo d'aurore création web"
-                    />
-                    <span className="text-center">06.77.80.98.69</span>
-                </li>  
+                <ul className="list-unstyled contact d-flex flex-wrap justify-content-center socialNetworks">
+                    <li className="d-flex row justify-content-center mb-1">
+                        <img className="imgFooter1"
+                        src="./assets/icon/github-aurore-ramos.png"
+                        alt="telephone pour contacter aurore ramos"
+                        />
+                        <a
+                        href="https://github.com/Chaplin16?tab=repositories"
+                        className="fw-bold color-text text-decoration-none text-center"
+                        >
+                        Github repositories
+                        </a>
+                    </li>
+                    <li className="d-flex row justify-content-center mt-1">
+                        <img className="imgFooter"
+                        src="./assets/icon/linkedin-aurore-ramos.png"
+                        alt="linkedin pour le profil d'aurore ramos"
+                        />
+                        <a
+                        href="https://www.linkedin.com/in/aurore-creation-web/"
+                        className="fw-bold color-text text-decoration-none text-center"
+                        >
+                        Linkedin
+                        </a>
+                    </li>
+                    <li className="d-flex row justify-content-center">
+                        <img className="imgFooter2"
+                    
+                        src="./assets/icon/aurore-creation-web-logo.png"
+                        alt="logo d'aurore création web"
+                        />
+                        <a
+                        href="https://aurorecreationweb.fr"
+                        className="fw-bold color-text text-decoration-none text-center"
+                        >
+                        Aurore Création Web
+                        </a>
+                    </li>
+                    <li className="fw-bold d-flex row justify-content-center">
+                        <img className="imgFooter"
+                    
+                        src="./assets/icon/telephone.png"
+                        alt="logo d'aurore création web"
+                        />
+                        <span className="text-center">06.77.80.98.69</span>
+                    </li>  
                 </ul>
            </div>
             <img

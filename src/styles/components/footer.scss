@@ -26,7 +26,14 @@ footer{
     }
     .imgFooter{
         width:45px; 
-        height: auto;
+        height:auto;
+        object-fit: contain;
+    }
+    .imgFooter1{
+        width:60px;
+    }
+    .imgFooter2{
+        width:74px;
     }
     .imgAurore{
         width:130px;
