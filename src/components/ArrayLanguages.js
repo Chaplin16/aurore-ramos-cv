@@ -59,8 +59,11 @@ const ArrayLanguages = [
     {
         image:"./assets/languages/figma.png",
         alt:"logo de figma"
+    },
+    {
+        image:"./assets/languages/gimp.png",
+        alt:"logo de gimp"
     }
-    
 ]
 
 export default ArrayLanguages;

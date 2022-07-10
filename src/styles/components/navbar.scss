@@ -41,10 +41,17 @@ nav{
         transform: rotate(-90deg);
         border: none!important;
         color: #000;
+        align-items: center;
     }
-    & .displayMenu{
+    & .iconMenu1{
         transform: rotate(90deg);
         padding-bottom:1rem;
+    }
+    & .iconMenu2{
+        transform: rotate(90deg);
+        padding-top:1.7rem;
+        visibility: hidden;
+              
     }
     &:hover,
     &:focus{
@@ -53,20 +60,21 @@ nav{
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:975px) {
     .btnMenu {
-        margin-left:0.8rem!important;
+        margin-left:0.5rem!important;
         button{
         font-size: 1.2rem;
         }
-        .displayMenu{
+        .iconMenu1,
+        .iconMenu2{
             width: 18px;
             height: auto;
         }
     }
     nav ul{
         font-size:1.5rem!important;
-        padding-left:45px!important;
+        padding-left:55px!important;
     }
     
 }

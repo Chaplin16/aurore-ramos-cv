@@ -2,7 +2,7 @@ import React from "react";
 import { HashLink as Link } from 'react-router-hash-link'
 import Video from "../components/Video"
 import Header from "../components/Header";
-import CardPortfolio from "../components/CardPorfolio";
+import CardPortfolio from "../components/CardPortfolio";
 import portfolio from "../components/ArrayPortfolio";
 import arrayArrow from "../components/ArrayArrow";
 import Text from "../components/Text";

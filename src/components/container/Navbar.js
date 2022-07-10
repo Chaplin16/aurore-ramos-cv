@@ -20,6 +20,20 @@ export default function Navbar() {
     };
   }, []);
 
+  window.addEventListener("scroll", () => {
+
+    const scrollMenu1 = document.querySelector(".iconMenu1");
+    const scrollMenu2 = document.querySelector(".iconMenu2");
+
+    if (window.scrollY > 500) {
+      scrollMenu1.style.visibility = "hidden";
+      scrollMenu2.style.visibility = "visible";
+    } else {
+      scrollMenu1.style.visibility = "visible";
+      scrollMenu2.style.visibility = "hidden";
+    }
+  });
+
   return (
     <nav>
       {(toggleMenu) && (
@@ -55,9 +69,18 @@ export default function Navbar() {
         </ul>
       )}
       <div className="btnMenu">
-        <button onClick={navSmallScreen} id="menu">
-            MENU
-            <img className="displayMenu" src="./assets/icon/afficher-menu.png" alt="afficher le menu" />
+      <button onClick={navSmallScreen} id="menu">
+          MENU
+          <img
+            className="iconMenu1"
+            src="./assets/icon/afficher-menu.png"
+            alt="afficher le menu"
+          />
+          <img
+            className="iconMenu2"
+            src="./assets/icon/afficher-menu-rose.png"
+            alt="afficher le menu"
+          />
         </button>
       </div>
     </nav>
