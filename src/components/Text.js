@@ -16,10 +16,6 @@ export default function Text() {
                 <img src="./assets/icon/aurore-check.png" alt="" />
                 <p className='m-0 ps-3 lead'>Saisie en base de données SQL et NoSQL</p>
             </li>
-            <li className='d-flex align-items-center my-2 '>
-                <img src="./assets/icon/aurore-check.png" alt="" />
-                <p className='m-0 ps-3 lead'>Refactorisation de code</p>
-            </li>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
                 <p className='m-0 ps-3 lead'>Optimisation de photos (nommer, redimentionner, alléger)</p>
