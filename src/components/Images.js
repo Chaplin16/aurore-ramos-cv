@@ -93,11 +93,6 @@ const Images = {
             alt:"Création d'un site internet pour le club de judo",
             link:'https://judo-aiguesmortais.fr/'
         },
-        // {
-        //     image:'./assets/site-cms/aurore-creation-web-salon-46.png',
-        //     alt:"Création d'un site internet pour un salon de coiffure",
-        //     link:'https://salon-46.fr/'
-        // },
         {
             image:'./assets/site-cms/aurore-creation-web-jpcapsules.png',
             alt:"Création d'un site e-commerce pour la vente de capsules de champagne",

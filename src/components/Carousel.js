@@ -16,7 +16,14 @@ export default function Carousel({images}) {
     autoplaySpeed: 1800,
     swipeToSlide: true,
     responsive: [
-
+      {
+        breakpoint: 1350,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
       {
         breakpoint: 1350,
         settings: {
