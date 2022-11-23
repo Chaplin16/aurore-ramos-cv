@@ -62,7 +62,7 @@ export default function Footer() {
                         src="./assets/icon/telephone.png"
                         alt="logo d'aurore création web"
                         />
-                        <span className="text-center">06.77.80.98.69</span>
+                        <span className="text-center">06.77.80.98.69 <br/>contact@aurorecreationweb.fr</span>
                     </li>  
                 </ul>
            </div>
