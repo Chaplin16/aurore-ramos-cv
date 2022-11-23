@@ -10,7 +10,7 @@ export default function Text() {
         <ul className='service'>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
-                <p className='m-0 ps-3 lead'>Intégration de maquette</p>
+                <p className='m-0 ps-3 lead'>Intégration de maquette (html, css, javascript, bootstrap, sass)</p>
             </li>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
