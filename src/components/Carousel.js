@@ -17,7 +17,7 @@ export default function Carousel({images}) {
     swipeToSlide: true,
     responsive: [
       {
-        breakpoint: 1350,
+        breakpoint: 1600,
         settings: {
           slidesToShow: 6,
           slidesToScroll: 1,
