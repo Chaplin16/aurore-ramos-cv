@@ -89,6 +89,11 @@ const Images = {
     ],
     cms : [
         {
+            image:'./assets/site-cms/aurore-creation-web-webradio-paulette.png',
+            alt:"Création d'un site internet pour",
+            link:'https://college-radio-paulette.fr/'
+        },
+        {
             image:'./assets/site-cms/aurore-creation-web-carrousel.png',
             alt:"Création d'un site internet pour",
             link:'https://carrousel-aiguesmortes.fr/'
