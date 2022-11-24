@@ -89,13 +89,18 @@ const Images = {
     ],
     cms : [
         {
+            image:'./assets/site-cms/aurore-creation-web-webradio-bauchez.png',
+            alt:"Création d'une webradio pour le college Bauchez",
+            link:'https://webradio-bauchez.fr/'
+        },
+        {
             image:'./assets/site-cms/aurore-creation-web-webradio-paulette.png',
-            alt:"Création d'un site internet pour",
+            alt:"Création d'une webradio pour le college paul Valery",
             link:'https://college-radio-paulette.fr/'
         },
         {
             image:'./assets/site-cms/aurore-creation-web-carrousel.png',
-            alt:"Création d'un site internet pour",
+            alt:"Création d'un site internet pour le carrousel d aigues mortes",
             link:'https://carrousel-aiguesmortes.fr/'
         },
         {
