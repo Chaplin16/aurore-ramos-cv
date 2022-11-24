@@ -2,6 +2,11 @@
 const Images = {
     vitrine : [
         {
+            image: './assets/site-vitrine/aurore-creation-web-fumoir.png',
+            alt:"Création d'un site pour un excellent artisan fumeur",
+            link:'https://chaplin16.github.io/fumoir-aiguesmortes.fr/'
+        },
+        {
             image: './assets/site-vitrine/aurore-creation-web-aiguesbike.png',
             alt:"Création d'un site de location de vélo",
             link:'https://chaplin16.github.io/aigues_bike/'
