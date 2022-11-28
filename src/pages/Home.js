@@ -7,6 +7,7 @@ import portfolio from "../components/ArrayPortfolio";
 import arrayArrow from "../components/ArrayArrow";
 import Text from "../components/Text";
 import SoftSkills from "../components/SoftSkills";
+import ArticleFigaro from "../components/ArticleFigaro";
 import Footer from "../components/Footer";
 import Arrow from "../components/CardArrow";
 import SlideLanguages from "../components/SlideLanguages";
@@ -25,6 +26,7 @@ export default function Home() {
           </div>
           <Text />
           <SoftSkills />
+          <ArticleFigaro />
           <Footer />
           <Arrow arrayArrow={arrayArrow.portfolioDown} />
       </div>
