@@ -152,9 +152,9 @@ const ImagesWebsites = {
         },
         {
             image:'./assets/projets-fictifs/maquette-portfolio.png',
-            alt:"Maquette du portfolio codée en react",
+            alt:"Mon site de freelance",
             link:'https://portfolio-brown-omega-58.vercel.app/',
-            popUp: "Maquette codée en React.js"
+            popUp: "Mon site internet de freelance"
         },
         {
             image:'./assets/projets-fictifs/next-exercice-divers.png',
