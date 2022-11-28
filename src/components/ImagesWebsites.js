@@ -153,7 +153,7 @@ const ImagesWebsites = {
         {
             image:'./assets/projets-fictifs/maquette-portfolio.png',
             alt:"Mon site de freelance",
-            link:'https://aurorecreationweb/',
+            link:'https://aurorecreationweb.fr/',
             popUp: "Mon site internet de freelance"
         },
         {
