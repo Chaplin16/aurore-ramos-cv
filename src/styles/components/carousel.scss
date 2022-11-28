@@ -1,9 +1,8 @@
-// page des realisations avec tous les formats portable
+// page des realisations avec tous les formats portable via ImagesWebsites.js
 $color-text: #838080;
 
-
 #portfolio {
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     padding-left:5%;
 }
@@ -12,7 +11,7 @@ $color-text: #838080;
     font-family: 'Arima Madurai', cursive;
     img{
         width: auto;
-        height: 15rem;
+        height: 12rem;
         object-fit: contain;
     }
 }

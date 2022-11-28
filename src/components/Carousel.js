@@ -19,23 +19,23 @@ export default function Carousel({images}) {
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 6,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 1350,
-        settings: {
           slidesToShow: 5,
           slidesToScroll: 1,
           infinite: true,
         },
       },
       {
-        breakpoint: 1100,
+        breakpoint: 1300,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -43,15 +43,15 @@ export default function Carousel({images}) {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
         },
       },  
       {
-        breakpoint: 450,
+        breakpoint: 530,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },

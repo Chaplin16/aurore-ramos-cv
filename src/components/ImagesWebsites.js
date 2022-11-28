@@ -1,125 +1,125 @@
 //tableau des réalisatioons format portable sur la page portfolio
-const Images = {
+const ImagesWebsites = {
     vitrine : [
         {
-            image: './assets/site-vitrine/aurore-creation-web-fumoir.png',
+            image: './assets/site-vitrine/creation-site-aigues-mortes-fumoir.png',
             alt:"Création d'un site pour un excellent artisan fumeur",
             link:'https://chaplin16.github.io/fumoir-aiguesmortes.fr/'
         },
         {
-            image: './assets/site-vitrine/aurore-creation-web-aiguesbike.png',
+            image: './assets/site-vitrine/creation-site-aigues-mortes-aigues-bike.png',
             alt:"Création d'un site de location de vélo",
             link:'https://chaplin16.github.io/aigues_bike/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-artisans-de-samael.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-artisans-samel.png',
             alt:"Création d'un site pour une boutique de santons",
             link:'https://www.artisansdesamael.com/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-nokisland.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-nokisland.png',
             alt:"Création d'un site pour une boutiquede vêtements",
             link:'https://chaplin16.github.io/nokIsland/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-roudil.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-roudil.png',
             alt:"Création d'un site pour un artiste BRUNO ROUDIL",
             link:'https://roudil-on-textile.com/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-verre-azur.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-verre-azur.png',
             alt:"Création d'un site pour une créatrice de bijoux",
             link:'https://chaplin16.github.io/verreAzur/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-angelina-bike.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-angelina-bike.png',
             alt:"Création d'un site pour de la location de vélos, vente de motos ",
             link:'https://angelina-bike.fr/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-david-barry.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-cordonnerie-david-barry.png',
             alt:"Création d'un site pour un maçon ",
             link:'https://david-barry.fr/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-lentracte.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-entracte.png',
             alt:"Création d'un site pour un snack",
             link:'https://chaplin16.github.io/entracte/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-o-phil-des-saveurs.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-o-phil-des-saveurs.png',
             alt:"Création d'un site pour un traiteur",
             link:'https://chaplin16.github.io/OPhilDesSaveurs/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-nuit-de-folie.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-nuit-de-folie.png',
             alt:"Création d'un site pour une boutique de lingerie fine",
             link:'https://chaplin16.github.io/NuitDeFolie/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-cordonnier-remparts.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-cordonnerie-remparts.png',
             alt:"Création d'un site pour un cordonnier",
             link:'https://chaplin16.github.io/cordonnerie/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-jotraiteur.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-verre-azur.png',
             alt:"Création d'un site pour un traiteur",
             link:'https://chaplin16.github.io/jotraiteur/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-location-appartement-marlene.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-location-camargue.png',
             alt:"Création d'un site pour un appartement d'hôte",
             link:'https://locationappartementaiguesmortes.fr/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-cordonnier-grau.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-cordonnerie-grau-du-roi.png',
             alt:"Création d'un site pour un cordonnier sur le grau du roi ",
             link:'https://chaplin16.github.io/cordonnerie-du-grau/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-scenario.png',
+            image:'./assets/site-vitrine/creation-site-internet-aigues-mortes-scenario.png',
             alt:"Création d'un site pour une boutique de vêtements pour femme",
             link:'https://chaplin16.github.io/scenario/'
         },
         {
-            image:'./assets/site-vitrine/aurore-creation-web-capsules.fr.png',
+            image:'./assets/site-vitrine/creation-site-aigues-mortes-jpcapsules.png',
             alt:"Création d'un site servant de tremplin à un e-commerce",
             link:'https://capsules-jp.fr'
         }
     ],
     cms : [
         {
-            image:'./assets/site-cms/aurore-creation-web-webradio-bauchez.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-webradio-bauchez.png',
             alt:"Création d'une webradio pour le college Bauchez",
             link:'https://webradio-bauchez.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-webradio-paulette.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-radio-paulette.png',
             alt:"Création d'une webradio pour le college paul Valery",
             link:'https://college-radio-paulette.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-carrousel.png',
+            image:'./assets/site-cms/creation-site-internet-aigues-mortes-carrousel.png',
             alt:"Création d'un site internet pour le carrousel d aigues mortes",
             link:'https://carrousel-aiguesmortes.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-judo.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-judo.png',
             alt:"Création d'un site internet pour le club de judo",
             link:'https://judo-aiguesmortais.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-jpcapsules.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-jpcapsules.png',
             alt:"Création d'un site e-commerce pour la vente de capsules de champagne",
             link:'https://jpcapsules.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-fashion-du-sud.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-fashion-du-sud.png',
             alt:"Création d'un site internet pour une boutique de vêtements féminins",
             link:'https://lesfashiondusud.fr/'
         },
         {
-            image:'./assets/site-cms/aurore-creation-web-budgets-punjab.png',
+            image:'./assets/site-cms/creation-site-aigues-mortes-cordonnerie-punjab.png',
             alt:"Création d'un site internet pour un restaurant indien",
             link:'https://restaurant-indien-sete.jimdofree.com/'
         }
@@ -165,4 +165,4 @@ const Images = {
     ]
 };
 
-export default Images;
+export default ImagesWebsites;
